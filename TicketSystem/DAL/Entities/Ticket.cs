@@ -2,7 +2,7 @@
 
 namespace TicketSystem.DAL.Entities
 {
-    public class Tickets
+    public class Ticket
     {
         #region Properties
         [Key]
