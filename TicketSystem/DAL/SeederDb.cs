@@ -11,7 +11,7 @@
 
         public async Task SeederAsync()
         {
-            await _context.Database.EnsureCreatedAsync(); // me reemplaza el comando update-database
+            await _context.Database.EnsureCreatedAsync();
             await PopulateTicketsAsync();
 
             await _context.SaveChangesAsync();

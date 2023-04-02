@@ -7,6 +7,7 @@ namespace TicketSystem.DAL.Entities
         #region Properties
         [Key]
         [Required]
+        [Display (Name = "Identificador")]
         public Guid Id { get; set; }
         [Display (Name = "Fecha de uso de la boleta")]
         public DateTime? UseDate { get; set; }
