@@ -13,10 +13,5 @@ namespace TicketSystem.DAL
         }
         public DbSet<Ticket> Tickets { get; set; }
 
-        //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
-        //    base.OnModelCreating(modelBuilder);
-        //    modelBuilder.Entity<Ticket>().HasIndex(T => T.Id).IsUnique();
-        //}
     }
 }
