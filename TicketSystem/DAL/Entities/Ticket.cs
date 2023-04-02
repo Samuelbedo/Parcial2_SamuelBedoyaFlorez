@@ -9,11 +9,11 @@ namespace TicketSystem.DAL.Entities
         [Required]
         public Guid Id { get; set; }
         [Display (Name = "Fecha de uso de la boleta")]
-        public DateTime UseDate { get; set; }
+        public DateTime? UseDate { get; set; }
         [Display (Name = "Estado de la boleta")]
         public bool IsUsed{ get; set; }
         [Display (Name = "Puerta de entrada")]
-        public string EntranceGate{ get; set; }
+        public string? EntranceGate{ get; set; }
 
 
         #endregion
