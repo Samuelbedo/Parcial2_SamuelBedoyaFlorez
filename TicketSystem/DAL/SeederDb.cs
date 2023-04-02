@@ -21,7 +21,7 @@
         {
             if (!_context.Tickets.Any())
             {
-                for (int i = 0; i < 5; i++)
+                for (int i = 0; i < 50000; i++)
                 {
                     _context.Tickets.Add(new Ticket { UseDate = null, IsUsed = false, EntranceGate = null});
                 }
